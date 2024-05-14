@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>  
+      <title>cars photos</title>
+    <link rel="stylesheet" href="photoscss1.css">
+</head>
+<body>
+    <div class="head">
+    <h2><li><u>Some photos of Cars:</u></li></h2>
+    </div>
+    <hr>
+
+    <div class="image-container">
+        <img src="0.jpg" width="1080px" height="1080px" alt="Photo 1">
+        <img src="2.jpg" width="1080px" height="1080px" alt="Photo 2">
+        <img src="3.jpg" width="1080px" height="1080px" alt="Photo 3">
+        <img src="4.jpg" width="1080px" height="1080px" alt="Photo 4">
+    </div>
+
+    <button id="btn1" class="my-button">dev info</button>
+    <script>
+        var button1 = document.getElementById("btn1");
+        button1.addEventListener("click", function() {
+            window.location.href = "about_us.html";
+            alert("Press OK to view info!");
+        });
+    </script>
+        <button id="btn2" class="my-button">car video</button>
+        <script>
+            var button1 = document.getElementById("btn2");
+            button1.addEventListener("click", function() {
+                window.location.href = "video.html";
+                alert("Press OK to view video!");
+            });
+        </script>
+<hr>
+    <form action="home.html" method="post">
+        <input type="submit" name="previous page" value="previous page" id="btn2">
+    </form>
+</body>
+</html>

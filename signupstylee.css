@@ -1,0 +1,58 @@
+body {
+	background-image:url(BACKGROUND.jpg) ;
+	background-color:azure;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+    background-position: top;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: scroll;
+
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        box-sizing: border-box;
+    }
+    
+    form {
+        border-collapse: collapse;
+        width: 500px;
+        border: 2px solid #000000;
+        padding: 30px;
+        background:rgba(0,0,0, 0.5);
+        border-radius: 15px;
+    }
+    
+    h2 {
+        color: azure;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    input {
+        display: block;
+        border: 2px solid #ccc;
+        width: 95%;
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+    label {
+        color: #ffffff;
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    button {
+        float:right;
+        background:aqua;
+        padding: 10px 15px;
+        color: #000000;
+        border-radius: 5px;
+        margin-right: 10px;
+        border: none;
+    }

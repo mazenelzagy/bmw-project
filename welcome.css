@@ -1,0 +1,35 @@
+body {
+	background-image:url(BACKGROUND.jpg) ;
+	background-color:azure;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+    background-position:top;
+background-size:cover;
+background-repeat: no-repeat;
+background-attachment: scroll;
+
+}
+
+.my-button {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form {
+    text-align: center;
+    color: azure;
+	border-collapse: collapse;
+	width: 500px;
+	border: 2px solid #000000;
+	padding: 30px;
+	background:rgba(0,0,0, 0.5);
+	border-radius: 15px;
+}
